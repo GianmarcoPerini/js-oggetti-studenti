@@ -43,5 +43,5 @@ while(request == "si"){
 }
 
 for(let y in arrStudent){
-    console.log(y, ": ", arrStudent[y]);
+    console.log(arrStudent[y].Name, arrStudent[y].Surname);
 }
